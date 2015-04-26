@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Visonar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/design.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="img/favicon.png">
+  
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body>
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span>
+						<span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="index.html">Visonar Drone Testing</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav div_header">
+						<li class="">
+							<a href="#algo">Algorithme</a>
+						</li>
+						<li>
+							<a href="#amelio">Harware</a>
+						</li>
+						<li>
+							<a href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+				
+				</nav>
+				<a name="algo">
+			<div class="carousel slide" id="carousel-518351">
+				<ol class="carousel-indicators">
+					<li data-slide-to="0" data-target="#carousel-518351">
+					</li>
+					<li data-slide-to="1" data-target="#carousel-518351" class="active">
+					</li>
+					<li data-slide-to="2" data-target="#carousel-518351">
+					</li>
+				</ol>
+				<div class="carousel-inner div2">
+					<div class="item">
+						<img alt="" width="290px" src="2000px-OpenCV_Logo_with_text_svg_version.svg.png">
+						<div class="carousel-caption">
+							<h4>
+								OpenCv
+							</h4>
+							<p>
+							OpenCV (Open Source Computer Vision) is a library of programming functions mainly aimed at real-time computer vision, developed by Intel Russia research center in Nizhny Novgorod, and now supported by Willow Garage and Itseez.[1] It is free for use under the open-source BSD license. The library is cross-platform. It focuses mainly on real-time image processing. If the library finds Intel's Integrated Performance Primitives on the system, it will use these proprietary optimized routines to accelerate itself.
+							</p>
+						</div>
+					</div>
+					<div class="item active div1">
+						<img alt="" height="290" width="460" src="c-plus-plus-language.png">
+						<div class="carousel-caption">
+							<h4>
+								C++
+							</h4>
+							<p>
+							C++ (pronounced as cee plus plus, /ˈsiː plʌs plʌs/) is a general-purpose programming language. It has imperative, object-oriented and generic programming features, while also providing the facilities for low-level memory manipulation.
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<center>	<img alt="" width="620" src="Système_Visonar.png"></center>
+						<div class="carousel-caption">
+						</div>
+					</div>
+				</div> <a class="left carousel-control" href="#carousel-518351" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-518351" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		</div></a>
+			<div class="jumbotron div2">
+				<h2>
+					Algorithme Analyse Image
+				</h2>
+				<h3>Le type de language utilise pour nos algorithme sont OpenCv et le C++</h3>
+				<p>
+					OpenCV (pour Open Computer Vision) est une bibliothèque graphique libre, 
+					initialement développée par Intel, spécialisée dans le traitement d'images en temps réel.<br/> 
+					La société de robotique Willow Garage assure le support de cette bibliothèque depuis 2008.<br/>
+					Cette bibliothèque est distribuée sous licence BSD.</br>
+					NVidia a annoncé en septembre 2010 qu'il développerait des fonctions utilisant CUDA pour OpenCV.</br></br>
+					Elle propose la plupart des opérations classiques en traitement bas niveau des images</br>
+					lecture, écriture et affichage d’une image</br>
+					calcul de l'histogramme des niveaux de gris ou d'histogrammes couleurs</br>
+					lissage, filtrage</br>
+					seuillage d'image (méthode d'Otsu, seuillage adaptatif)</br>
+					segmentation (composantes connexes, GrabCut)</br>
+					morphologie mathématique.</br>
+					</p>
+					<center><img height="600"src="Algorithme.jpg"></center>
+					<center>	<h4>Image de base</h4></center>
+					<img src="hist_equ.jpg">
+					<center><h4>Contour</h4></center>
+					<img src="contours.jpg">
+					<center><h4>Pipe decoupage</h4></center>
+					<img src="pipe.jpg">
+					<center><h4>Canny</h4></center>
+					<img src="canny.jpg">
+					<center><h4>Canny</h4></center>
+					<img src="canny1.jpg">
+					<center><h4>Laplacian</h4></center>
+					<img src="laplacian.jpg">
+					<center><h4>Sobel</h4></center>
+					<img src="sobel.jpg">
+					<center><h4>Reseau de neurones</h4></center>
+					<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Neural_network.svg/1024px-Neural_network.svg.png">
+			</div>
+			<div class="jumbotron div3">
+				<a name="amelio"></a>
+				<h2>
+					Amelioration Hardware Drone	
+				</h2>
+			
+						<center><img alt="" src="drone-et-pipeline.jpg"></center>
+						<center><h4>Au niveaux harware pour un gain de precision, optimisation et de vitesse de calcule.<br/>C'est option materiel peuve apporter beaucoup.</h4></center>
+				<center>	<h3>Capteur de distance</h3>
+					<p>
+					Le Capteur de Distance Laser LIDAR-Lite est une solution de mesure au laser essentielle, puissante, évolutive et économique prenant en charge une large gamme d'applications (ex : drones, robotique générales, détection industrielle et bien plus). Il mesure la distance, la rapidité et la force du signal de cibles coopératives ou non à des distances de zéro à plus de 40 mètres. Il offre la plus haute performance disponible pour un capteur de distance à un seul faisceau de sa catégorie.
+					</p>
+					<img src="http://www.robotshop.com/media/catalog/product/cache/8/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/c/a/capteur-distance-laser-lidar-lite_1.jpg">
+					</br>
+					<h3>Détecteurs Ultrasoniques</h3>
+					<p>
+					le capteur à ultrasons avec la plus longue portée à haute résolution en plein air, résistant aux intempéries</br>
+					Petit module léger avec une résolution d'1 mmi</br>
+					Lisez depuis chacune des 3 sorties de capteurs : tension analogique, série, largeur d'impulsioni</br>
+					Quasiment aucune zone morte pour le capteur, pour des objets à moins de 50 cm avec un ordre de grandeur type de 50 cm</br>
+					Conçu pour une intégration simple dans votre projet ou produit</br>
+					Calibrage automatique en temps réel (tension, humidité, et bruit ambiant)</br>
+					Filtrage du microprogramme pour une excellente tolérance au bruit et une suppression des signaux de brouillage</br>
+					Protection contre l"eau (IP67), option F de protection optionnelle contre les produits chimiquesi</br>
+					Conforme aux raccords de tuyauterie en PVC de 1,91 cm électriques standard pour un montage facile
+					</p>
+					<img src="http://www.robotshop.com/media/catalog/product/cache/8/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/s/o/sonar-haute-performance-precision-hrxl-maxsonar-wrs-1.jpg">
+					<h3>
+						Camera infrarouge ou thermique
+					</h3>
+					<p>
+					Une caméra thermique enregistre les différents rayonnements infrarouge (ondes de chaleur) émis par les corps et qui varient en fonction de leur température. Contrairement à ce que l’on pourrait penser, une caméra thermique ne permet pas de voir derrière une paroi ou un obstacle. Elle reproduit la chaleur emmagasinée par un corps, ou montre le flux thermique d'une paroi en raison d’un foyer se trouvant à l’arrière.
+
+					Les vitres ainsi que les parties métalliques polies reflètent l’image thermique tel un miroir. Cette image, bien que moins nette, peut cependant induire un observateur en erreur.
+
+					Bien que la longueur d'onde du rayonnement infrarouge dépende de la température, les caméras thermiques ont en général un seul canal (comme une caméra qui filme en "noir et blanc"), et les caméras se contentent de produire une image de l'intensité du rayonnement, qui permet également d'apprécier la température de la source. La couleur produite par la caméra est une fausse couleur, obtenue en associant une couleur à l'intensité reçue, afin de faciliter la lecture directe de la température : à chaque couleur de l'image correspond une température.
+					</p>
+					<img src="pump.jpg"/>
+				</center>
+			</div>
+				 	<div class="jumbotron">
+				<a name="contact"></a>	
+				<h2>
+					Contact
+			</h2>
+			<p>
+				jpirsch@student.42.fr</br>
+				mbougrin@student.42.fr
+			</p>
+		</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
